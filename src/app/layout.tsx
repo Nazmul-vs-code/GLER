@@ -1,6 +1,6 @@
 import { Poppins } from 'next/font/google';
 import './globals.css';
-import Navbar from './Components/shared/Navbar';
+import Navbar from './components/shared/Navbar';
 import { ThemeProvider } from 'next-themes';
 import { Toaster } from 'react-hot-toast';
 

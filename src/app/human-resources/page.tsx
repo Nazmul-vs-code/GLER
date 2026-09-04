@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
-import SideFilter from '../Components/Human-resources/SideFilter';
-import RsourcesDataTable from '../Components/Human-resources/RsourcesDataTable';
+import SideFilter from '../components/Human-resources/SideFilter';
+import RsourcesDataTable from '../components/Human-resources/RsourcesDataTable';
 
-export default function HumanResourcesPage() {
+function HumanResourcesContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -73,7 +73,7 @@ export default function HumanResourcesPage() {
           </div>
 
           {/* Data Table Wrapper */}
-          <div className=" rounded-xl shadow-sm overflow-hidden">
+          <div className="rounded-xl shadow-sm overflow-hidden">
             <RsourcesDataTable />
           </div>
 
@@ -81,5 +81,13 @@ export default function HumanResourcesPage() {
 
       </div>
     </div>
+  );
+}
+
+export default function HumanResourcesPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-base-200 p-6 flex items-center justify-center text-base-content/70">Loading...</div>}>
+      <HumanResourcesContent />
+    </Suspense>
   );
 }
