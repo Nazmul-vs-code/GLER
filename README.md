@@ -8,10 +8,10 @@
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-5.0-5A0E2D?style=for-the-badge&logo=daisyui)
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel)
 
-**[🌐 Visit Live Application](https://gler-omega.vercel.app/human-resources)**
+**[🌐 Visit Live Application](https://gler-omega.vercel.app/human-resources)** | **[📦 GitHub Repository](https://github.com/Nazmul-vs-code/GLER)**
 
 <p align="center">
-  <img src="https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif" alt="Confused John Travolta Gler Preview" width="500" />
+  <img src="https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif" alt="Confused John Travolta Gler Preview" width="480" />
 </p>
 
 </div>
@@ -20,15 +20,14 @@
 
 ## 🌟 Overview
 
-**Gler** is a high-performance administrative dashboard designed to streamline service provider workflows, human resource data tables, and financial forecasting. Built with **Next.js 16 (Turbopack)** and styled using **DaisyUI + Tailwind CSS**, Gler delivers dynamic theme swapping, real-time URL state synchronization, and an interactive UX with zero layout flashes.
+**Gler** is a high-performance administrative dashboard designed to streamline service provider workflows, human resource waitlists, and financial forecasting. Built with **Next.js 16 (Turbopack)** and styled using **DaisyUI 5 + Tailwind CSS**, Gler delivers dynamic theme swapping, real-time URL state synchronization, and an interactive UX with zero layout flashes.
 
 ---
 
-## 🌐 Live Production Deployment
+## 🔗 Quick Links
 
-Access the hosted application on Vercel:
-
-👉 **[https://gler-omega.vercel.app/human-resources](https://gler-omega.vercel.app/human-resources)** 👈
+* 🌐 **Live Demo:** [https://gler-omega.vercel.app/human-resources](https://gler-omega.vercel.app/human-resources)
+* 🐙 **Source Code:** [https://github.com/Nazmul-vs-code/GLER](https://github.com/Nazmul-vs-code/GLER)
 
 ---
 
@@ -43,15 +42,15 @@ Access the hosted application on Vercel:
 | **Theme Engine** | 🌙 **`next-themes`** | Dynamic HTML root dark/light mode toggling |
 | **Toast Engine** | 🍞 **`react-hot-toast`** | Lightweight, animated global user feedback popups |
 | **Icons** | 🎭 **`react-icons`** | High-density vector icons (FontAwesome / Lucide) |
-| **Deployment** | 🚀 **Vercel** | CI/CD automated edge deployment pipeline |
+| **Deployment** | 🚀 **Vercel** | Automated edge CI/CD build pipeline |
 
 ---
 
 ## 🔥 Key Features
 
-* 🌓 **Instant Theme Engine:** Swaps active DaisyUI themes (`light` / `synthwave`) system-wide using `next-themes` without re-rendering delays or hydration mismatches.
-* 🔍 **Real-time URL Search Synchronization:** Search parameters instantly sync with the browser address bar (`useSearchParams` + `useRouter`) wrapped inside React `<Suspense>` boundaries for full static generation compatibility.
-* 🔔 **Integrated Developer Feedback:** Action buttons trigger customized global toast notifications letting users know about features currently under development.
+* 🌓 **Instant Theme Engine:** Swaps active DaisyUI themes (`light` / `dark` / `synthwave`) system-wide using `next-themes` without re-rendering delays or hydration mismatches.
+* 🔍 **Real-Time Search Sync:** Query parameters update in real-time with automatic URL synchronization (`useSearchParams` + `useRouter`) wrapped inside React `<Suspense>` boundaries.
+* 🔔 **Interactive Toasts:** Action buttons trigger customized global toast notifications letting users know about features currently under development.
 * 🎭 **Easter Egg 404 Page:** Custom error handling page with animated GIF illustrations, screen-shake effects, and randomized excuse generators.
 
 <p align="center">
@@ -70,5 +69,5 @@ Access the hosted application on Vercel:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/gler.git](https://github.com/your-username/gler.git)
-   cd gler
+   git clone [https://github.com/Nazmul-vs-code/GLER.git](https://github.com/Nazmul-vs-code/GLER.git)
+   cd GLER
